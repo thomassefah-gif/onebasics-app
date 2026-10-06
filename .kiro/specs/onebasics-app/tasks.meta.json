@@ -1,0 +1,372 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project and install dependencies": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127675032
+      }
+    ],
+    "2.1 Create Supabase client singleton at `src/lib/supabase.ts`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127676939
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127689492
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128794830
+      }
+    ],
+    "2.2 Create TypeScript database types at `src/types/database.ts`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127677848
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127689831
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128795285
+      }
+    ],
+    "3.1 Create `AppShell` layout component at `src/components/layout/AppShell.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127677987
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128800293
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129332988
+      }
+    ],
+    "3.2 Create `Sidebar` navigation component at `src/components/layout/Sidebar.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678098
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128800746
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129333483
+      }
+    ],
+    "3.3 Wire up React Router v6 in `src/main.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678181
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128801191
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129334217
+      }
+    ],
+    "4. Checkpoint — verify shell renders": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678247
+      }
+    ],
+    "5.1 Create `useDashboardKpis` hook at `src/hooks/useDashboardKpis.ts`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678326
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128801716
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129334818
+      }
+    ],
+    "5.3 Create `useChartData` hook at `src/hooks/useChartData.ts`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678424
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128802207
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129335047
+      }
+    ],
+    "5.4 Create `usePeople` hook at `src/hooks/usePeople.ts`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678514
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129343828
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129460839
+      }
+    ],
+    "5.5 Create `useLookups` hook at `src/hooks/useLookups.ts`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678599
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129344394
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129461417
+      }
+    ],
+    "6.1 Create `KpiCard` component at `src/components/dashboard/KpiCard.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678681
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129770144
+      }
+    ],
+    "6.3 Create `ChartCard` wrapper at `src/components/dashboard/ChartCard.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678771
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129770514
+      }
+    ],
+    "6.4 Create `Dashboard` page at `src/pages/Dashboard.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678845
+      }
+    ],
+    "7.1 Create `FileUploadInput` component at `src/components/form/FileUploadInput.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127678962
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129771065
+      }
+    ],
+    "7.4 Create `CrossReferenceSearch` component at `src/components/form/CrossReferenceSearch.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679056
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129771811
+      }
+    ],
+    "7.7 Create `ProgramSelector` component at `src/components/form/ProgramSelector.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679148
+      },
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129772391
+      }
+    ],
+    "7.8 Create `StepIndicator` component at `src/components/form/StepIndicator.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679295
+      }
+    ],
+    "8.1 Create `Step1Person` at `src/components/form/steps/Step1Person.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679388
+      }
+    ],
+    "8.5 Create `Step2Staff` at `src/components/form/steps/Step2Staff.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679456
+      }
+    ],
+    "8.6 Create `Step3Hedzole` at `src/components/form/steps/Step3Hedzole.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679526
+      }
+    ],
+    "8.8 Create `Step4Volunteer` at `src/components/form/steps/Step4Volunteer.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679612
+      }
+    ],
+    "8.10 Create `Step5Cdl` at `src/components/form/steps/Step5Cdl.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679678
+      }
+    ],
+    "9.1 Create `FormWizard` at `src/components/form/FormWizard.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679749
+      }
+    ],
+    "9.3 Create `Form` page at `src/pages/Form.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679810
+      }
+    ],
+    "10. Checkpoint — verify form wizard end-to-end": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127679891
+      }
+    ],
+    "11.1 Create `RoleBadge` component at `src/components/people/RoleBadge.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680068
+      }
+    ],
+    "11.2 Create `SearchBar` component at `src/components/people/SearchBar.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680213
+      }
+    ],
+    "11.3 Create `PeopleTable` component at `src/components/people/PeopleTable.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680300
+      }
+    ],
+    "11.5 Create `People` page at `src/pages/People.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680363
+      }
+    ],
+    "12. Checkpoint — verify full application": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680443
+      }
+    ],
+    "13.1 Verify route configuration in `src/main.tsx`": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680536
+      }
+    ],
+    "14. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791127680620
+      }
+    ],
+    "2. Supabase client and database types": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791128795401
+      }
+    ],
+    "3. Application shell and routing": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129334325
+      }
+    ],
+    "5. Custom data-fetching hooks": [
+      {
+        "executionId": "940412d4-076e-4a04-8223-3850ccabf1b9",
+        "chatSessionId": "sess_451c9f3d-b34a-4a88-b421-45346c912789",
+        "timestamp": 1791129461492
+      }
+    ]
+  }
+}
